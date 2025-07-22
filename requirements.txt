@@ -1,2 +1,7 @@
 # requirements.txt
-
+crewai
+langchain
+streamlit
+openai
+requests
+python-dotenv
