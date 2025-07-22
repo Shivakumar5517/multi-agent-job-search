@@ -13,8 +13,7 @@ crew = Crew(
     user_profile = "Paste your background information here"
     result = crew.run({"job_description": job_description, "user_profile": user_profile})
     print(result)"""
-    
-    def run_job_pipeline(job_description, user_profile):
+def run_job_pipeline(job_description, user_profile):
     return crew.run({
         "job_description": job_description,
         "user_profile": user_profile
